@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Input Data Barang</title>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background: url(img/bg3.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .form-container {
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        width: 350px;
+      }
+      .form-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+      }
+      input, select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Input Data</h2>
+    <form action="inputNama_Json.php" method="post">
+      <div class="form-group">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="hp">HP</label>
+        <input type="number" id="hp" name="hp" required />
+      </div>
+      <div class="form-group">
+        <label for="alamat">Alamat</label>
+        <input type="text" id="alamat" name="alamat" required />
+      </div>
+      <div class="form-group">
+        <button type="submit">Simpan</button>
+        <a href="viewNama_Json.php" style="display: block; margin: 10px; text-align: center; text-decoration: none;">Lihat Data</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

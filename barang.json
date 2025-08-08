@@ -1,0 +1,50 @@
+[
+    {
+        "nama": "Moreno",
+        "email": "moreno@gmail.com",
+        "hp": "0812345",
+        "alamat": "Bekasi"
+    },
+    {
+        "nama": "Josep",
+        "email": "josep@gmail.com",
+        "hp": "0877",
+        "alamat": "Bekasi"
+    },
+    {
+        "nama": "Adit",
+        "email": "adit@gmail.com",
+        "hp": "0899",
+        "alamat": "Bekasi"
+    },
+    {
+        "nama": "Ben",
+        "email": "ben@gmail.com",
+        "hp": "0866",
+        "alamat": "Bekasi"
+    },
+    {
+        "nama": "Zainul",
+        "email": "zainul@gmail.com",
+        "hp": "0855",
+        "alamat": "Bekasi"
+    },
+    {
+        "nama": "Ata",
+        "email": "ata@gmail.com",
+        "hp": "0844",
+        "alamat": "Bekasi"
+    },
+    {
+        "nama": "Asad",
+        "email": "asad@gmail.com",
+        "hp": "0833",
+        "alamat": "Bandung"
+    },
+    {
+        "nama": "syarif",
+        "email": "syarif@gmail.com",
+        "hp": "0822",
+        "alamat": "Bekasi"
+    }
+]
